@@ -15,6 +15,7 @@ import sys
 from flask import Flask, request, make_response, render_template_string
 
 # Config stuff
+#Bonjour
 KEY=Random.new().read(32) # 256 bit key for extra security!!!
 BLOCKSIZE=AES.block_size
 ADMIN_SECRET=Random.new().read(32) # need to keep this secret
